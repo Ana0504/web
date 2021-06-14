@@ -1,0 +1,12 @@
+<header>
+    <img src="static/images/mountain.png" alt="Anne-lise" class="logo">
+        {% if navmenu %}
+			<nav>
+				<ul class="top-menu">
+                    {% for item in navmenu %}
+						<li><a href="{{item.addr}}">{{item.name}}</a></li>
+					{% endfor %}
+                </ul>
+			</nav>
+		{% endif %}
+</header>

@@ -1,0 +1,24 @@
+<html> 
+    <head>
+      <meta charset="UTF-8">
+      <title>
+        Login
+      </title>
+      <link rel="stylesheet" href="/static/stylesheets/styles.css">
+    </head>
+    <body id="loginForm">
+            <main>
+                <form  method="POST" action="/login">
+                    <div class="auth-form">
+                        <h3>Welcome</h3>
+                        <p><input name="loginField" type="text" placeholder="Login" id="log_field"></p>
+                        <p><input name="passField" type="password" placeholder="Password" id="pass_field"></p>
+                        <div class="btn_class">  
+                          <button type="submit" id="sendbtn">Sign in</button>
+                          <button type="submit" id="sendbtn" name="regBtn" value="true">Sign up</button>
+                        </div>
+                    </div>
+                </form>
+            </main>
+    </body>
+</html>

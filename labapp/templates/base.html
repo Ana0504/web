@@ -1,0 +1,23 @@
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <title>
+        {% block title %}
+        {% endblock title %}
+      </title>
+      <link rel="stylesheet" href="/static/stylesheets/styles.css">
+    </head>
+    <body>
+      <div class="container">
+      {% include 'include/header.html' %} 
+        <div class="container-fluid page-body-wrapper">
+          <main id="{{pname}}">
+            {% block content %}{% endblock %}
+          </main>
+        </div>
+      </div>
+      {% include 'include/footer.html' %}
+      {% block script %}
+      {% endblock script %}
+    </body>
+</html>

@@ -1,0 +1,173 @@
+header {
+    text-align: justify;
+    letter-spacing: 1px;
+    height: auto;
+    padding: 10px;
+    background: bisque;
+    color: #fff;
+}
+
+footer{
+    background-color: bisque;
+    height: 40px;
+    width:  100%;
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+}
+
+footer span{
+    float:right;
+    margin-right: 60px;
+}
+
+.logo{
+margin-top: 0;
+margin-left: 15px;
+width: 60px;
+height: 60px;
+float: left;
+}
+
+#HOME{
+    background: url(../images/MainDark.png) no-repeat center top / cover;
+    background-size:cover;
+    height: 79%;
+}
+
+header nav {
+    float:right;
+    vertical-align: middle;
+}
+
+nav{
+    
+    display: inline-block;
+}
+
+header li{
+    display: inline-flex;
+
+}
+
+
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+h1{
+
+    color: rgb(44, 28, 17);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 80px;
+    margin:0%;
+    font-size: 60px;
+}
+
+h2{
+    color: rgb(44, 28, 17);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.result{
+    display: inline-flex;
+}
+
+
+
+#CONTACT{
+    background: url(../images/contact.jpg) no-repeat center top / cover;
+    background-size:cover;
+    padding: 3%;
+    color: white;
+}
+
+.auth-form{
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#loginForm{
+    background: url(../images/login.jpg) no-repeat center top / cover;
+    background-size:cover; 
+}
+
+#log_field,
+#pass_field,
+#email_field{
+    background: rgba(255, 0, 242, 0.575);
+    color: white;
+    border: violet;
+    border-radius: 10px;
+    height: 40px;
+    width:180px;
+    display: block;
+    margin: 0 auto;
+}
+
+#fname_contact_field,
+#sname_contact_field,
+#email_contact_field,
+#reqtype_contact_field{
+    background: rgba(252, 193, 0, 0.596);
+    color: white;
+    border-color: rgb(145, 67, 4);
+    border-radius: 10px;
+    height: 40px;
+    width:180px;
+}
+
+#sendbtn{
+    border-radius: 10px;
+    background: rgba(202, 23, 149, 0.671);
+    border: rgba(255, 0, 179, 0.671);
+    height: 25px;
+    width: 90px;
+    color: white;
+    margin-left: 5px;
+}
+
+.btn_class{
+    position: absolute;
+    left: 50%;
+    margin: 0 auto;
+    transform: translate(-50%, 0);
+    display: flex;
+    text-align: center;
+}
+
+
+h3{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 80px;
+    margin:0%;
+    font-size: 60px;
+}
+
+#about_us_img{
+    width: 300px;
+   height: auto;
+   margin-left: 20%;
+   border-radius: 15px;
+}
+
+.info{
+    margin-left: 20%;
+}
+
+#about_us{
+    background: burlywood;
+}

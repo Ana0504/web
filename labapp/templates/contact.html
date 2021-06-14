@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section>
+        <form id="contactform">
+            <fieldset id="contactfieldset">
+                <legend>Contacts</legend>
+                <p><label for="fname">First Name :     </label><br><input type="text" name="fname" id="fname_contact_field"></p>
+                <p><label for="sname">Second Name : </label><br><input type="text" name="sname" id="sname_contact_field"></p>
+                <p><label for="email">E-mail :  </label><br><input type="email" name="email" id="email_contact_field"></p>
+                <p>
+                <label>Request type:</label><br>
+                <select name="reqtype" id="reqtype_contact_field">
+                    <option>Detailed information about the tour</option>
+                    <option>Order the tour</option>
+                </select>
+                </p>
+                <p><b>Enter your request:</b></p>
+                <p><textarea rows="10" cols="45" name="reqtext" id="reqtext_contact_field"></textarea></p>
+            </fieldset>
+        <div class="result">
+            <p><input type="submit" id="contactbtn" value="Отправить" style="margin-right: 15px;"></p>
+            <aside>
+                <p id="statusfield"></p>
+            </aside>
+        </div>
+        </form>		
+    </section>
+    <script type="text/javascript" src="/static/javascripts/formsend.js"></script>
+
+{% endblock %}

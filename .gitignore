@@ -1,0 +1,5 @@
+**/migrations
+**/__pycache__
+*labapp/__pycache__
+.idea
+testappdb.sqlite
